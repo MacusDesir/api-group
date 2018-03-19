@@ -1,0 +1,2 @@
+module DiscoverFyHelper
+end

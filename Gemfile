@@ -6,6 +6,11 @@ git_source(:github) do |repo_name|
 end
 
 
+gem 'rspotify'
+gem 'material_icons' 
+gem 'materialize-sass', '~> 1.0.0.alpha4'
+gem 'httparty'
+gem 'hirb'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
 # Use postgresql as the database for Active Record
