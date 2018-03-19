@@ -4,10 +4,13 @@
 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
-
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
 <nav>
    <div class="nav-wrapper black" id="homenav">
-     <a href="#" id="hometitle" class="brand-logo">discoverfy</a>
+     <a id="hometitle" class="brand-logo">discoverfy</a>
      <ul id="nav-mobile" class="right hide-on-med-and-down">
        <li><a  class="waves-effect waves-light btn green accent-4" href="#">Features</a></li>
        <li><a class="waves-effect waves-light btn green accent-4" href="#">About</a></li>
@@ -102,7 +105,19 @@
        </div>
      </div>
    </footer>
+   <!-- Modal Trigger -->
+     <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
 
+     <!-- Modal Structure -->
+     <div id="modal1" class="modal">
+       <div class="modal-content">
+         <h4>Modal Header</h4>
+         <p>A bunch of text</p>
+       </div>
+       <div class="modal-footer">
+         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+       </div>
+     </div>
 
 
    </body>
