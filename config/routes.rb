@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :about
+  # resources :about
   get 'about/index'
 
   get 'discoverfy/index'
