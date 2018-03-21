@@ -1,11 +1,9 @@
 Rails.application.routes.draw do
 
-
-
   resources :about
 
   # resources :about
- # refs/remotes/origin/master
+
   get 'about/index'
 
   get 'discoverfy/index'
